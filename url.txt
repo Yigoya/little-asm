@@ -1,0 +1,10 @@
+As a program grows in size and complexity, it is common that different parts of the
+program are stored in different source files. This allows a programmer to ensure the
+source files do not become unreasonably large and would also allow multiple
+programmers to more easily work on different parts of the program.
+The function calls, even those written by different programmers, will work together
+correctly due to the standard calling convention as outlined in Chapter 12, Functions.
+This is even true when interfacing with a high-level language.
+This chapter will present a simple assembly language example to demonstrate how to
+create and use source code in multiple files. In addition, an example of how to interface
+with a C/C++ source file is provided.
